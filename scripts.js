@@ -5,10 +5,11 @@ let computerChoice = 0;
 
 //defining array values for the computer to randomly choose
 const options = ["rock", "paper", "scissors"];
+let length = options.length;
 
 //using the array to return random choice
-function getComputerChoice(number = 3) {
-    return computerChoice = options[Math.floor(Math.random() * number)];
+function getComputerChoice() {
+    return computerChoice = options[Math.floor(Math.random() * options.length)];
 }
 
 //while loop to reject other words.
@@ -54,7 +55,7 @@ function playRound(humanChoice,computerChoice) {
 
 //for loop to get the wheels turning for 5 times.
 for (let i = 0; i < 5; i++) {
-getComputerChoice(number=3);
+getComputerChoice();
 getHumanChoice(humanChoice = (prompt("Rock, Paper, Scissors, one, two, three!").toLowerCase()));
 playRound(humanChoice,computerChoice,humanScore,computerScore);
 alert(humanScore + ":" + computerScore);
