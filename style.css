@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1, h3, div {
+    color:#2321b1;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+}
